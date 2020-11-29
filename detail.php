@@ -9,6 +9,7 @@
     // Crea un objeto de preferencia
     $preference = new MercadoPago\Preference();
     $preference->notification_url = "https://".$_SERVER['SERVER_NAME']."/notifications.php";
+    $preference->external_reference = 'ferdelacruz9917@gmail.com';
     $preference->auto_return = "approved";
     
     $preference->back_urls = array(
@@ -49,7 +50,6 @@
     $item->quantity = $_POST['unit'];
     $item->unit_price = $_POST['price'];
     $item->description = $_POST['description'];
-    $item->external_reference = 'ferdelacruz9917@gmail.com';
     $item->picture_url = "https://".$_SERVER['SERVER_NAME']."/".substr($_POST['img'], 2);
     $preference->items = array($item);
     

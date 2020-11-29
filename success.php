@@ -85,7 +85,8 @@
             Gracias por sus compra, su pedido esta siendo preparado y se enviara pronto.
         </div><br><br>
         <div align="center">
-            payment_method_id: <?=$_REQUEST['payment_method_id']?><br>
+            payment_id: <?=$_REQUEST['payment_id']?><br>
+            payment_type: <?=$_REQUEST['payment_type']?><br>
             external_reference: <?=$_REQUEST['external_reference']?><br>
             collection_id: <?=$_REQUEST['collection_id']?><br>
             payment_id: <?=$_REQUEST['payment_id']?><br>
