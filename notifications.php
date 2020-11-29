@@ -1,5 +1,8 @@
 <?php
 
+error_reporting(1);
+error_log(E_ALL);
+
 include_once "mail.php";
 $mail = new Mail();
 
