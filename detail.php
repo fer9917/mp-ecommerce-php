@@ -43,6 +43,11 @@
     );
     $preference->payer = $payer;
 
+
+    $_POST['description'] = "Dispositivo móvil de Tienda e-commerce";
+
+
+
     // Crea un ítem en la preferencia
     $item = new MercadoPago\Item();
     $item->id = 1234;
