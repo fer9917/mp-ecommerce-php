@@ -90,6 +90,9 @@
             external_reference: <?=$_REQUEST['external_reference']?><br>
             collection_id: <?=$_REQUEST['collection_id']?><br>
             payment_id: <?=$_REQUEST['payment_id']?><br>
+        </div><br><br>
+        <div align="center">
+            <pre><?php print_r($_REQUEST) ?></pre>
         </div><br><br><br>
         <div role="alert" class="as-loader-text ally" aria-live="assertive"></div>
         <div class="as-footnotes">
