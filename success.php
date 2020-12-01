@@ -91,6 +91,7 @@
             collection_id: <?=$_REQUEST['collection_id']?><br>
             payment_id: <?=$_REQUEST['payment_id']?><br>
         </div><br><br>
+        <pre><?php print_r(json_encode($_REQUEST)) ?></pre>
         <pre><?php print_r($_REQUEST) ?></pre>
         <br><br><br>
         <div role="alert" class="as-loader-text ally" aria-live="assertive"></div>
